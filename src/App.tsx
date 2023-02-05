@@ -1,22 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Style from "assets/scss/home.module.scss";
 
 function App() {
   return (
-    <div className="App">
+    <div className="Home">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <img
+          src={
+            "https://i.pinimg.com/564x/d1/d0/7d/d1d07dcc79c9d75288846abafbb427ec.jpg"
+          }
+          className="App-logo"
+          alt="logo"
+        />
+        <p className={Style["home"]}>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+          Learn Reacts 1 2 3
         </a>
       </header>
     </div>
